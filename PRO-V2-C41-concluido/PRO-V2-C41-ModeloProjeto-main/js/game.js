@@ -169,12 +169,9 @@ class Game{
     addObstacles()
     {       
             var x, y;
-            
-            //x = random(0, width-100);
-            //x = random(0);
-            x = random();
-            
-            
+           
+            x = random(0, width-100);
+
             y = 0
             var obstacle = createSprite(x, y);
             obstacle.addImage("obstacle", obstacleImage);
